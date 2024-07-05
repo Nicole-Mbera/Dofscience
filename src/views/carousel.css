@@ -1,0 +1,48 @@
+.carousel-container {
+    position: relative;
+  }
+  
+  .carousel-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .carousel-image {
+    width: 50%; /* Set the width to 50% to allow space for caption */
+    object-fit: cover; /* Ensure the image covers the div without stretching */
+  }
+  
+  .carousel-caption-right {
+    padding: 20px;
+    text-align: left;
+    flex: 1; /* Take remaining space */
+  }
+  
+  .carousel-inner {
+    display: flex;
+    align-items: center;
+  }
+  
+  .carousel-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Arrows outside the carousel */
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5%;
+  }
+  
+  .carousel-control-prev {
+    left: -5%;
+  }
+  
+  .carousel-control-next {
+    right: -5%;
+  }
+  

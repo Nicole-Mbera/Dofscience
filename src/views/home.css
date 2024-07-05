@@ -1,0 +1,71 @@
+
+ 
+ 
+ .who{
+      height: 50vh;
+      background-color: white; 
+ }
+
+
+ .vertical{
+border-left: 2px solid #000;
+  height: 655px;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+.we-are{
+      padding: 50px;
+}
+.title{
+      font-family: libre baskerville;
+      font-size:77px;
+}
+.we-are p{
+      font-weight: lighter;
+      margin-top: 10px;
+      margin-left: 10px;
+      font-family: cormorant garamond;
+}
+.area{
+      display: flex;
+}
+.vmc{
+      display: flex;
+      padding: 80px;
+      gap: 155px;
+}
+.vision{
+      width: 30%;
+      /* background-color: blue; */
+}
+.vision h1{
+      font-family:libre baskerville;
+      text-align: center;
+}
+.icon{
+display: flex;
+height: 20vh;
+width:100%;
+/* background-color: aquamarine; */
+justify-content: center; 
+align-items: center;     
+}
+.icon img{
+max-width: 100%;         
+max-height: 100%; 
+}
+
+.vision p{
+      font-weight: lighter;
+      font-family: cormorant garamond;
+      margin-top: 10px;
+}
+.vertical-1{
+      border-left: 2px solid #000;
+        height: 380px;
+        margin-left: 70px;
+        margin-top: 10px;
+      }
+      .carousel-container{
+            padding: 100px;
+      }
