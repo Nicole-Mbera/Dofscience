@@ -20,6 +20,11 @@ border-left: 2px solid #000;
       font-family: libre baskerville;
       font-size:77px;
 }
+.titre{
+      font-family: libre baskerville;
+      font-size:77px;
+      text-align: center;   
+}
 .we-are p{
       font-weight: lighter;
       margin-top: 10px;
@@ -128,7 +133,12 @@ max-height: 100%;
               .title{
                   font-family: libre baskerville;
                   font-size:35px;
-            }}
+            }
+            .titre{
+                  font-family: libre baskerville;
+                  font-size:35px;
+            }
+      }
             @media(max-width:412px){
                   .vmc{
                     
@@ -157,4 +167,8 @@ max-height: 100%;
                     .title{
                         font-family: libre baskerville;
                         font-size:27px;
+                  }
+                  .titre{
+                        font-family: libre baskerville;
+                        font-size:35px;
                   }}

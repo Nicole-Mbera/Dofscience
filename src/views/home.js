@@ -58,7 +58,9 @@ Make a unique character as a professional.</p>
 <p>Teamwork, integrity, excellence, innovation, and honesty.</p>
 </div>
     </div>
-    <div className="carousel-container" id="more-functionality"><Swiper></Swiper></div>
+    <div className="carousel-container" id="more-functionality">
+      <h1 className="titre">MORE FUNCTIONALITY</h1>
+      <Swiper></Swiper></div>
 
     <div className="area">
 <div className="vertical-1"/>
