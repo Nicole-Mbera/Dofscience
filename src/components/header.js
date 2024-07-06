@@ -26,7 +26,7 @@ const Header = ({ data }) => {
       </Drawer>
       <div className="headerContainer">
         <div className="logo">
-          <img src={logo} />
+          <img src={logo} alt="Description of image" />
 
         </div>
         

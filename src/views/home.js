@@ -42,18 +42,18 @@ Make a unique character as a professional.</p>
     </div>
     <div className="vmc">
 <div className="vision">
-<div className="icon"><img src={mission}></img></div>
+<div className="icon"><img src={mission} alt="Description of image"></img></div>
 <h1>Mission</h1>
 <p>Donate complete next generation password solutions to make a unique character as a professional.</p>
 </div>
 <div className="vision">
-<div className="icon"><img src={vision}></img></div>
+<div className="icon"><img src={vision} alt="Description of image"></img></div>
 <h1>Vision</h1>
 <p>Turning dreams into reality through state-of-the-art advanced technology, transfer, and applied science.</p>
 </div>
 <div className="vision">
 
-<div className="icon"><img src={values}></img></div>
+<div className="icon"><img src={values} alt="Description of image"></img></div>
 <h1>Values</h1>
 <p>Teamwork, integrity, excellence, innovation, and honesty.</p>
 </div>

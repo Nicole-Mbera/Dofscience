@@ -1,6 +1,5 @@
 import React from "react";
 import { InstagramOutlined, FacebookOutlined, TwitterOutlined , LinkedinOutlined, CopyrightOutlined} from "@ant-design/icons";
-import logo from "../assets/images/without-words.png"
 import "./footer.css"
 
 const Footer = () => {
