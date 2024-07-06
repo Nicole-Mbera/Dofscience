@@ -5,6 +5,7 @@ import mission from "../assets/images/mission.png"
 import vision from "../assets/images/vision.png"
 import values from "../assets/images/values.png"
 import MyCarousel from "./swiper";
+import Swiper from "./carousel";
 
 const Home = () => {
   return (
@@ -13,7 +14,7 @@ const Home = () => {
       <div className="anime">
         <MyCarousel></MyCarousel>
       </div>
-    <div className="we-are">
+    <div className="we-are" id="about-us">
 
   <h1 className="title">WHO WE ARE</h1>
   <p>Dofscience is a global excellence partner, scientists and advanced engineers to promote factories at another level. we offer personal coaching, technical know-how, transfer and applied science.
@@ -21,7 +22,7 @@ Make a unique character as a professional.</p>
 <p>we are philanthropic, government registered foundation, endeavoring to turn dreams into reality.</p>
 
     </div>
-    <div className="area">
+    <div className="area" id="services">
 <div className="vertical"/>
 <div className="we-are">
 <h1 className="title">AREA OF</h1>
@@ -57,7 +58,7 @@ Make a unique character as a professional.</p>
 <p>Teamwork, integrity, excellence, innovation, and honesty.</p>
 </div>
     </div>
-    <div className="carousel-container"><MyCarousel></MyCarousel></div>
+    <div className="carousel-container" id="more-functionality"><Swiper></Swiper></div>
 
     <div className="area">
 <div className="vertical-1"/>

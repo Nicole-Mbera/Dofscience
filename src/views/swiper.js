@@ -8,6 +8,7 @@ import image4 from "../assets/images/future.png"
 
 const MyCarousel = () => {
   return (
+    <div className="anime">
     <Carousel>
         <Carousel.Item>
         <img
@@ -55,6 +56,7 @@ const MyCarousel = () => {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    </div>
   );
 }
 

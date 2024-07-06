@@ -1,48 +1,97 @@
-.carousel-container {
-    position: relative;
+.carousel-item-content{
+  display: flex;
+  /* background-color: rgb(136, 104, 104); */
+  height: 50vh;
+  padding: 50px;
+}
+.carousel-item-content img{
+  padding-left: 120px;
+}
+.caption{
+ padding: 40px;
+ width: 48%;
+}
+.caption h3{
+  font-family: libre baskerville;
+      font-size:37px;
+}
+.caption p{
+  font-weight: lighter;
+      margin-top: 10px;
+      margin-left: 10px;
+      font-family: cormorant garamond;
+}
+.carousel-control-prev-icon{
+  color: black; /* Change this to the color you want */
+  /* background-size: 100%, 100%; */
+  /* font-size: 150px; */
+  background-image: none;
+
+}
+.carousel-control-next-icon {
+  color: black; /* Change this to the color you want */
+  /* background-size: 100%, 100%; */
+  /* font-size: 150px; */
+  background-image: none;
+
+}
+
+.carousel-control-prev-icon::after {
+  content: '\2039'; /* Unicode character for left arrow */
+  /* margin-right: 130px; */
+font-size: 70px;
+  color: rgb(0, 0, 0); /* Change this to the color you want */
+}
+
+.carousel-control-next-icon::after {
+  content: '\203A'; /* Unicode character for right arrow */
+ font-size: 70px;
+/* margin-right: 10px; */
+  color: rgb(0, 0, 0); /* Change this to the color you want */
+}
+
+@media(max-width:1024px){
+  .carousel-item-content{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 10px;
+    height: 80vh;
+   text-align: center;
+   gap: 0px;
+}
+.carousel-item-content img{
+  padding-left: 5px;
+  width: 100%;
+}
+
+.caption{
+  padding: 30px;
+  width: 100%;
+ }
+ .caption h3{
+  font-family: libre baskerville;
+      font-size:27px;
+}}
+@media(max-width:550px){
+  .carousel-item-content{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      padding: 10px;
+      height: 80vh;
+     text-align: center;
+     gap: 0px;
+  }
+  .carousel-item-content img{
+    padding-left: 5px;
+    width: 100%;
   }
   
-  .carousel-content {
-    display: flex;
-    align-items: center;
+  .caption{
+    padding: 30px;
+    width: 100%;
+   }
+   .caption h3{
+    font-family: libre baskerville;
+        font-size:27px;
   }
-  
-  .carousel-image {
-    width: 50%; /* Set the width to 50% to allow space for caption */
-    object-fit: cover; /* Ensure the image covers the div without stretching */
-  }
-  
-  .carousel-caption-right {
-    padding: 20px;
-    text-align: left;
-    flex: 1; /* Take remaining space */
-  }
-  
-  .carousel-inner {
-    display: flex;
-    align-items: center;
-  }
-  
-  .carousel-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  /* Arrows outside the carousel */
-  .carousel-control-prev,
-  .carousel-control-next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 5%;
-  }
-  
-  .carousel-control-prev {
-    left: -5%;
-  }
-  
-  .carousel-control-next {
-    right: -5%;
-  }
-  
+ }

@@ -67,5 +67,94 @@ max-height: 100%;
         margin-top: 10px;
       }
       .carousel-container{
-            padding: 100px;
+            padding: 17px;
+            /* background-color: aqua; */
       }
+
+      @media(max-width:820px){
+            .vmc{
+              
+                /* display: grid; */
+                /* grid-template-columns: repeat(1,1fr); */
+                padding: 65px;
+               text-align: center;
+               gap: 35px;
+            }
+            .vision{
+                 
+                  width: 100%;
+                  margin-top: 13px;
+                  
+              }  
+              .vertical{
+                    height: 540px;
+                   
+                  }
+              .vision p{
+                  font-weight: lighter;
+                  font-family: cormorant garamond;
+                  margin-top: 10px;
+                  text-align: left;
+            }
+              .title{
+                  font-family: libre baskerville;
+                  font-size:35px;
+            }}
+      @media(max-width:550px){
+            .vmc{
+              
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                padding: 65px;
+               text-align: center;
+               gap: 15px;
+            }
+            .vision{
+                 
+                  width: 100%;
+                  margin-top: 13px;
+                  
+              }  
+              .vertical{
+                    height: 540px;
+                   
+                  }
+              .vision p{
+                  font-weight: lighter;
+                  font-family: cormorant garamond;
+                  margin-top: 10px;
+                  text-align: left;
+            }
+              .title{
+                  font-family: libre baskerville;
+                  font-size:35px;
+            }}
+            @media(max-width:412px){
+                  .vmc{
+                    
+                      display: grid;
+                      grid-template-columns: repeat(1,1fr);
+                      padding: 65px;
+                     text-align: center;
+                     gap: 15px;
+                  }
+                  .vision{
+                       
+                        width: 100%;
+                        margin-top: 13px;
+                        
+                    }  
+                    .vertical{
+                          height: 540px;
+                         
+                        }
+                    .vision p{
+                        font-weight: lighter;
+                        font-family: cormorant garamond;
+                        margin-top: 10px;
+                        text-align: left;
+                  }
+                    .title{
+                        font-family: libre baskerville;
+                        font-size:27px;
+                  }}

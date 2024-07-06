@@ -8,8 +8,8 @@ const Footer = () => {
 
        
         <div className="footerContainer">
-             {/* <hr style={{ border: '1px solid #000' }}></hr> */}
-             <div className="horizontal"/>
+             <hr style={{ border: '1px solid #000' }}></hr>
+             {/* <div className="horizontal"/> */}
             <div className="flex">
             
            
@@ -18,9 +18,9 @@ const Footer = () => {
                 <ul className="no-bullets">
                 <h1 className="heading">DOFSCIENCE</h1>
                     <li><a href="/home"> Home </a></li>
-                    <li><a href="/shop"> Shop</a></li>
-                    <li><a href="/about"> About us </a></li>
-                    <li><a href="/contact">Contact us</a></li>
+                    <li><a href="#about-us"> About us </a></li>
+                    <li><a href="#services"> Services</a></li>
+                    <li><a href="#more-functionality">Innovations</a></li>
                     
                     </ul>
                

@@ -33,9 +33,9 @@ const Header = ({ data }) => {
 
         <div className="Navbar">
           <a href="/home"> Home </a>
-          <a href="/impact">About us</a>
-          <a href="/shop"> Services</a>
-          <a href="/contact">Innovations</a>
+          <a href="#about-us">About us</a>
+          <a href="#services"> Services</a>
+          <a href="#more-functionality">Innovations</a>
           
 
         </div>
