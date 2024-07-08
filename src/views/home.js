@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <Homelayout>
     <div className='home-container'>
-      <div className="anime">
+      <div className="anime" id="home">
         <MyCarousel></MyCarousel>
       </div>
     <div className="we-are" id="about-us">

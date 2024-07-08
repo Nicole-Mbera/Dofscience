@@ -32,7 +32,7 @@ const Header = ({ data }) => {
         
 
         <div className="Navbar">
-          <a href="/home"> Home </a>
+          <a href="#home"> Home </a>
           <a href="#about-us">About us</a>
           <a href="#services"> Services</a>
           <a href="#more-functionality">Innovations</a>
