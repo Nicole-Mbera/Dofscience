@@ -7,7 +7,6 @@ const Footer = () => {
 
        
         <div className="footerContainer">
-             <hr style={{ border: '1px solid #000' }}></hr>
              {/* <div className="horizontal"/> */}
             <div className="flex">
             

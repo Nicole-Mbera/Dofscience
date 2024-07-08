@@ -1,5 +1,6 @@
 .footerContainer{
     width: 100%;
+    background-color: black;
 }
 
 .hline{
@@ -15,7 +16,7 @@ border: 1px solid #000;
   margin-top: 10px;
 }
 .social{
-    background-color: white;
+    background-color: black;
     /* box-shadow: rgba(128, 128, 128, 0.534) 1px 0px 3px; */
     display: flex;
     /* gap: 5px; */
@@ -29,28 +30,32 @@ border: 1px solid #000;
     font-size: 22.5px;
     text-align: center;
     width: 33px;
-    color: black;  
+    color: white;  
     
 }
 
 .heading{
     font-family: libre baskerville;
       font-size:37px;
+      background-color: black;
+      color: white;
 }
 .heading2{
     font-family: cormorant garamond;
     font-size:17px;
  padding-left: 70px;
+ background-color: black;
+ color: white;
 }
 .navbarList{
-    /* background-color: black ; */
+    background-color: black ;
     display: flex;
       padding: 5px; 
 
 }
 .no-bullets a{
     font-size: medium;
-    color:black;
+    color:white;
     text-decoration: none;
     font-family: cormorant garamond;
     /* margin-top: 100px; */
@@ -65,7 +70,7 @@ border: 1px solid #000;
     margin-top: 70px;
 }
 .bullets li{
-    color:black;
+    color: white;
     list-style: none;
     margin-top: 5px;
     font-family: cormorant garamond;
@@ -76,7 +81,7 @@ border: 1px solid #000;
 .flex{
     display: flex;
     /* justify-content:first baseline; */
-    background-color: white;
+    background-color: black;
     padding: 35px;
 }
 
@@ -97,7 +102,7 @@ border: 1px solid #000;
             }
             .no-bullets a{
                 font-size: medium;
-                color:black;
+                color:white;
                 text-decoration: none;
                 font-family: cormorant garamond;
                 /* margin-top: 100px; */
@@ -109,7 +114,7 @@ border: 1px solid #000;
              /* padding-left: 70px; */
             }
             .social{
-                background-color: white;
+                background-color: black;
                 /* box-shadow: rgba(128, 128, 128, 0.534) 1px 0px 3px; */
                 display: flex;
                 /* gap: 5px; */
