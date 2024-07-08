@@ -4,6 +4,7 @@ import image1 from "../assets/images/bank.jpg";
 import image2 from "../assets/images/global.jpg";
 import image3 from "../assets/images/career.jpg";
 import image4 from "../assets/images/presence.jpg";
+import image5 from "../assets/images/lock.jpg"
 import './carousel.css';  // Import the custom CSS file
 
 const Swiper = () => {
@@ -20,6 +21,21 @@ const Swiper = () => {
           <div className='caption'>
             <h3>DOFSCIENCE BRAIN BANK</h3>
             <p>Dofscience ability innovate,empower and transform abelievers customers through our state of artistic advanced technology.</p>
+            </div>
+        
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div className="carousel-item-content">
+          <img
+            className="d-block "
+            src={image5}
+            alt="Second slide"
+          />
+          
+          <div className='caption'>
+            <h3>UNLOCKING POTENTIAL</h3>
+            <p>Dofscience is unlocking a person's potential to maximize their own performance. It is helping them to learn rather than teaching them.</p>
             </div>
         
         </div>
