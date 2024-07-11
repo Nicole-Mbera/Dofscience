@@ -16,6 +16,24 @@ border-left: 2px solid #000;
 .we-are{
       padding: 50px;
 }
+.are{
+      padding: 50px;
+}
+.are p{
+      font-weight: lighter;
+      margin-top: 10px;
+      margin-left: 10px;
+      font-family: cormorant garamond;
+}
+.confidential{
+      padding: 50px;
+}
+.confidential p{
+      font-weight: lighter;
+      margin-top: 10px;
+      margin-left: 10px;
+      font-family: cormorant garamond;
+}
 .title{
       font-family: libre baskerville;
       font-size:77px;
@@ -104,8 +122,18 @@ max-height: 100%;
               .title{
                   font-family: libre baskerville;
                   font-size:35px;
-            }}
+            }
+            .vertical-1{
+                  border-left: 2px solid #000;
+                    height: 260px;
+                    margin-left: 70px;
+                    margin-top: 10px;
+                  }
+      }
       @media(max-width:550px){
+            .anime img{
+                  height: 27vh;
+            }
             .vmc{
               
                 display: grid;
@@ -121,7 +149,7 @@ max-height: 100%;
                   
               }  
               .vertical{
-                    height: 540px;
+                    height: 460px;
                    
                   }
               .vision p{
@@ -138,8 +166,21 @@ max-height: 100%;
                   font-family: libre baskerville;
                   font-size:35px;
             }
+            .are{
+                  padding: 20px;
+            }
+            .confidential{
+                  padding: 15px;
+            }
+            .vertical-1{
+                  border-left: 2px solid #000;
+                    height: 365px;
+                    margin-left: 60px;
+                    margin-top: 0px;
+                  }
+                 
       }
-            @media(max-width:412px){
+            @media(max-width:414px){
                   .vmc{
                     
                       display: grid;
@@ -156,9 +197,15 @@ max-height: 100%;
                         
                     }  
                     .vertical{
-                          height: 540px;
+                          height: 440px;
                          
                         }
+                   .vertical-1{
+                              border-left: 2px solid #000;
+                                height: 300px;
+                                margin-left: 40px;
+                                margin-top: 0px;
+                              }
                     .vision p{
                         font-weight: lighter;
                         font-family: cormorant garamond;
@@ -173,3 +220,12 @@ max-height: 100%;
                         font-family: libre baskerville;
                         font-size:35px;
                   }}
+
+                  @media(max-width:360px){
+                        .vertical-1{
+                              border-left: 2px solid #000;
+                                height: 335px;
+                                margin-left: 40px;
+                                margin-top: 0px;
+                              }
+                  }

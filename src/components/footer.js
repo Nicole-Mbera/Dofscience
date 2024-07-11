@@ -29,7 +29,7 @@ const Footer = () => {
                     <ul>
                     <li>Phone: +250784774445</li>
                     <li>Email: dofscience1@gmail.com</li>
-                    <li>Address: Kigali special economic zone, 7th floor, Dofscience.</li>
+                    <li>Address: Kigali special economic zone, 7th floor, Dofia.</li>
                     
                   
                     </ul>

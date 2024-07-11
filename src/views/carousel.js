@@ -25,7 +25,7 @@ const Swiper = () => {
         
         </div>
       </Carousel.Item>
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <div className="carousel-item-content">
           <img
             className="d-block "
@@ -39,7 +39,7 @@ const Swiper = () => {
             </div>
         
         </div>
-      </Carousel.Item>
+      </Carousel.Item> */}
       <Carousel.Item>
         <div className="carousel-item-content">
           <img
@@ -64,7 +64,7 @@ const Swiper = () => {
           />
         <div className='caption'>
             <h3>CAREER DEVELOPMENT</h3>
-            <p>We assist your career development by providing access to Job opportunities.</p>
+            <p>We assist your career development by providing access to job opportunities.</p>
             </div>
         </div>
       </Carousel.Item>

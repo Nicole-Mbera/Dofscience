@@ -42,7 +42,7 @@ const Header = ({ data }) => {
 
         <div className="button-container">
           <h1 href="/shop" onClick={() => handleclickDrawerVisible()} style={{fontSize: "25px", color: "black", paddingTop:"30px", paddingRight:"15px"}}> <MenuOutlined /></h1>
-          {/* <a><MenuOutlined /></a> */}
+        
 
         </div>
 

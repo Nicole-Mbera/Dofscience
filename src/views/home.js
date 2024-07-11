@@ -17,14 +17,14 @@ const Home = () => {
     <div className="we-are" id="about-us">
 
   <h1 className="title">WHO WE ARE</h1>
-  <p>Dofscience is a global excellence partner, scientists and advanced engineers to promote factories at another level. we offer personal coaching, technical know-how, transfer and applied science.
-Make a unique character as a professional.</p>
+  <p>Dofscience is a global excellence partner, scientists and advanced engineers to promote industries at another level.       We offer personal coaching, technical know-how in both applied science and advanced technology.
+Make a unique character as professional.</p>
 <p>we are philanthropic, government registered foundation, endeavoring to turn dreams into reality.</p>
 
     </div>
     <div className="area" id="services">
 <div className="vertical"/>
-<div className="we-are">
+<div className="are">
 <h1 className="title">AREA OF</h1>
 <h1 className="title">INTERVENTION</h1>
 <p>Food and agricultural processing</p>
@@ -64,7 +64,7 @@ Make a unique character as a professional.</p>
 
     <div className="area">
 <div className="vertical-1"/>
-<div className="we-are">
+<div className="confidential">
 <h1 className="title">DOFSCIENCE CONFIDENTIAL</h1>
 <h1 className="title">INFORMATION</h1>
 <p>Beyond the theory, beyond the classrooms, there is dofscience to improve the quality of having experience, knowledge and good judgement.</p>

@@ -55,7 +55,7 @@ font-size: 70px;
     display: grid;
     grid-template-columns: repeat(1,1fr);
     padding: 10px;
-    height: 80vh;
+    height: 60vh;
    text-align: center;
    gap: 0px;
 }
@@ -64,6 +64,19 @@ font-size: 70px;
   width: 100%;
 }
 
+.carousel-control-prev-icon::after {
+  content: '\2039'; /* Unicode character for left arrow */
+  /* margin-right: 130px; */
+font-size: 160px;
+  color: rgb(0, 0, 0); /* Change this to the color you want */
+}
+
+.carousel-control-next-icon::after {
+  content: '\203A'; /* Unicode character for right arrow */
+ font-size: 160px;
+/* margin-right: 10px; */
+  color: rgb(0, 0, 0); /* Change this to the color you want */
+}
 .caption{
   padding: 30px;
   width: 100%;
@@ -77,16 +90,31 @@ font-size: 70px;
       display: grid;
       grid-template-columns: repeat(1,1fr);
       padding: 10px;
-      height: 80vh;
+      height: 50vh;
      text-align: center;
      gap: 0px;
   }
   .carousel-item-content img{
+  margin-top: 0px;
     padding-left: 5px;
     width: 100%;
+    /* background: red; */
+  }
+  .carousel-control-prev-icon::after {
+    content: '\2039'; /* Unicode character for left arrow */
+    /* margin-right: 130px; */
+  font-size: 70px;
+    color: rgb(0, 0, 0); /* Change this to the color you want */
   }
   
+  .carousel-control-next-icon::after {
+    content: '\203A'; /* Unicode character for right arrow */
+   font-size: 70px;
+  /* margin-right: 10px; */
+    color: rgb(0, 0, 0); /* Change this to the color you want */
+  }
   .caption{
+    /* background-color: aqua; */
     padding: 30px;
     width: 100%;
    }
