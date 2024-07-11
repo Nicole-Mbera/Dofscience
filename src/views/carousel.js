@@ -4,7 +4,6 @@ import image1 from "../assets/images/bank.jpg";
 import image2 from "../assets/images/global.jpg";
 import image3 from "../assets/images/career.jpg";
 import image4 from "../assets/images/presence.jpg";
-import image5 from "../assets/images/lock.jpg"
 import './carousel.css';  // Import the custom CSS file
 
 const Swiper = () => {
