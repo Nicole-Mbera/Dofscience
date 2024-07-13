@@ -4,6 +4,7 @@ import image1 from "../assets/images/woman.jpg"
 import image2 from "../assets/images/beaker.jpg"
 import image3 from "../assets/images/network.jpg"
 import image4 from "../assets/images/future.png"
+import image5 from "../assets/images/system.jpg"
 
 
 const MyCarousel = () => {
@@ -55,7 +56,20 @@ const MyCarousel = () => {
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
         </Carousel.Caption>
       </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={image5}
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          {/* <h3>Third slide label</h3>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
+        </Carousel.Caption>
+      </Carousel.Item>
+      
     </Carousel>
+    
     </div>
   );
 }

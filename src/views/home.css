@@ -15,6 +15,7 @@ border-left: 2px solid #000;
 }
 .we-are{
       padding: 50px;
+      /* background-color: blue; */
 }
 .are{
       padding: 50px;
@@ -24,6 +25,19 @@ border-left: 2px solid #000;
       margin-top: 10px;
       margin-left: 10px;
       font-family: cormorant garamond;
+}
+.padd{
+      padding: 60px;
+}
+.system{
+      padding: 15px;
+      /* width: 80%; */
+      background-color: #528FFC;
+      text-align: center;
+}
+.system h1{
+      font-family: libre baskerville;
+      font-size: 57px;
 }
 .confidential{
       padding: 50px;
@@ -103,6 +117,7 @@ max-height: 100%;
                text-align: center;
                gap: 35px;
             }
+            
             .vision{
                  
                   width: 100%;
@@ -138,10 +153,19 @@ max-height: 100%;
               
                 display: grid;
                 grid-template-columns: repeat(1,1fr);
-                padding: 65px;
+                padding: 60px;
                text-align: center;
                gap: 15px;
+               /* background-color: aqua; */
             }
+            .system h1{
+                  font-family: libre baskerville;
+                  font-size: 35px;
+            }
+            .padd{
+      padding: 30px;
+      /* background-color: black; */
+}
             .vision{
                  
                   width: 100%;

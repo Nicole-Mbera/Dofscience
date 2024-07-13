@@ -40,17 +40,25 @@ Make a unique character as professional.</p>
 <p>etc</p>
 </div>
     </div>
+
+    <div className="padd">
+    <div className="system">
+    <h1>DOFSCIENCE, YOUR SYSTEM.</h1>
+    </div>
+    </div>
+    
     <div className="vmc">
+    <div className="vision">
+<div className="icon"><img src={vision} alt="Description of vision"></img></div>
+<h1>Vision</h1>
+<p>Turning dreams into reality through state-of-the-art advanced technology, transfer, and applied science.</p>
+</div>
 <div className="vision">
 <div className="icon"><img src={mission} alt="mission potrayed"></img></div>
 <h1>Mission</h1>
 <p>Donate complete next generation password solutions to make a unique character as a professional.</p>
 </div>
-<div className="vision">
-<div className="icon"><img src={vision} alt="Description of vision"></img></div>
-<h1>Vision</h1>
-<p>Turning dreams into reality through state-of-the-art advanced technology, transfer, and applied science.</p>
-</div>
+
 <div className="vision">
 
 <div className="icon"><img src={values} alt="core values"></img></div>
