@@ -22,7 +22,7 @@ const Menu = () => {
     return (
 
         <div className="menu-container">
-            <a href="/home"> Home </a>
+            <a href="#home"> Home </a>
             <hr></hr> <br></br>
             {/* <a href="/shop">Categories</a> */}
             
